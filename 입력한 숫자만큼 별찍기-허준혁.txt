@@ -1,8 +1,8 @@
 str = '*'
-n = int(input())
-if n < 0:
+n = float(input())
+if int(n) <= 0:
   print("0 이하 숫자는 입력 불가능합니다.")
 else:
-  for i in range(1, n + 1):
+  for i in range(1, int(n) + 1):
     print(str)
     str += '*'
