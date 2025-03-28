@@ -60,5 +60,4 @@ while True:
       print("{}원이 반환됩니다.".format(remain))
       
   except ValueError:
-    remain = coin
     print("소수점 이하의 값은 입력하실 수 없습니다.")
