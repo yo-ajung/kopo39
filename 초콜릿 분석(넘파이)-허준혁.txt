@@ -1,6 +1,6 @@
 #우수 초콜릿 분석
 import numpy as np
-data = np.loadtxt('chocolate_rating.csv', delimiter=',')
+data = np.loadtxt('chocolate_rating.csv', delimiter = ',')
 print('차원:', data.ndim)
 print('모양:', data.shape)
 print('원소 수:', data.size)
