@@ -1,6 +1,6 @@
 #숫자 입력 받고 숫자가 소수인지 판별하기
 def check_prime_num(x):
-  for i in range(2,x):
+  for i in range(2, x):
     if x % i == 0:
         return False
     return True
