@@ -12,21 +12,21 @@ ws = wb.active
 
 import csv
 
-with open('data1.csv', encoding= 'cp949') as f:
+with open('data1.csv', encoding = 'cp949') as f:
   reader = csv.reader(f)
   for row in reader:
     ws.append(row)
 
 ws2 = wb.create_sheet('Sheet2')
 
-with open('data2.csv', encoding= 'cp949') as f:
+with open('data2.csv', encoding = 'cp949') as f:
   reader = csv.reader(f)
   for row in reader:
     ws2.append(row)
 
 ws3 = wb.create_sheet('Sheet3')
 
-with open('data3.csv', encoding= 'cp949') as f:
+with open('data3.csv', encoding = 'cp949') as f:
   reader = csv.reader(f)
   for row in reader:
     ws3.append(row)
