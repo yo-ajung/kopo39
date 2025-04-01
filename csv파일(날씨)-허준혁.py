@@ -1,7 +1,7 @@
 #  CSV파일 과제
 import csv
 
-f = open('weather.csv', 'w', newline = '', encoding='cp949')
+f = open('weather.csv', 'w', newline = '', encoding = 'cp949')
 wr = csv.writer(f)
 
 wr.writerow(['날짜', '요일', '날씨', '최저기온', '최고기온', '강수량'])
