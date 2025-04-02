@@ -11,7 +11,7 @@ list1 = list([['C1', '인공지능개론', 'R1', 3],
 import pandas as pd
 df = pd.DataFrame(list1, columns = col_names)
 df.to_csv('./timetable.csv', header = True, index = False,
-          encoding='utf-8')
+          encoding = 'utf-8')
 
 df2 = pd.read_csv('./timetable.csv', sep = ',')
 df2['교수'] = ['김예희', '오정현', '인세훈', '이새봄', '배유진', '이가원']
